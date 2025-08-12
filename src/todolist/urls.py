@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import include, path
-from views import metrics_view
+from todolist.views import metrics_view
 
 urlpatterns = [
     path("", include("lists.urls")),
